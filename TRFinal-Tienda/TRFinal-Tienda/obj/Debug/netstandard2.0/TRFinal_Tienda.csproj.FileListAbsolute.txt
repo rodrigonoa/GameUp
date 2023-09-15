@@ -1,0 +1,53 @@
+C:\Users\USUARIO\source\Semestre VI\TRFinal-Tienda\TRFinal-Tienda\TRFinal-Tienda\obj\Debug\netstandard2.0\TRFinal_Tienda.csproj.AssemblyReference.cache
+C:\Users\USUARIO\source\Semestre VI\TRFinal-Tienda\TRFinal-Tienda\TRFinal-Tienda\obj\Debug\netstandard2.0\TRFinal_Tienda.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\USUARIO\source\Semestre VI\TRFinal-Tienda\TRFinal-Tienda\TRFinal-Tienda\obj\Debug\netstandard2.0\App.xaml.g.cs
+C:\Users\USUARIO\source\Semestre VI\TRFinal-Tienda\TRFinal-Tienda\TRFinal-Tienda\obj\Debug\netstandard2.0\Home.xaml.g.cs
+C:\Users\USUARIO\source\Semestre VI\TRFinal-Tienda\TRFinal-Tienda\TRFinal-Tienda\obj\Debug\netstandard2.0\Login.xaml.g.cs
+C:\Users\USUARIO\source\Semestre VI\TRFinal-Tienda\TRFinal-Tienda\TRFinal-Tienda\obj\Debug\netstandard2.0\MainPage.xaml.g.cs
+C:\Users\USUARIO\source\Semestre VI\TRFinal-Tienda\TRFinal-Tienda\TRFinal-Tienda\obj\Debug\netstandard2.0\Register.xaml.g.cs
+C:\Users\USUARIO\source\Semestre VI\TRFinal-Tienda\TRFinal-Tienda\TRFinal-Tienda\obj\Debug\netstandard2.0\TRFinal_Tienda.AssemblyInfoInputs.cache
+C:\Users\USUARIO\source\Semestre VI\TRFinal-Tienda\TRFinal-Tienda\TRFinal-Tienda\obj\Debug\netstandard2.0\TRFinal_Tienda.AssemblyInfo.cs
+C:\Users\USUARIO\source\Semestre VI\TRFinal-Tienda\TRFinal-Tienda\TRFinal-Tienda\obj\Debug\netstandard2.0\TRFinal_Tienda.csproj.CoreCompileInputs.cache
+C:\Users\USUARIO\source\Semestre VI\TRFinal-Tienda\TRFinal-Tienda\TRFinal-Tienda\obj\Debug\netstandard2.0\TRFinal_Tienda.dll
+C:\Users\USUARIO\source\Semestre VI\TRFinal-Tienda\TRFinal-Tienda\TRFinal-Tienda\obj\Debug\netstandard2.0\refint\TRFinal_Tienda.dll
+C:\Users\USUARIO\source\Semestre VI\TRFinal-Tienda\TRFinal-Tienda\TRFinal-Tienda\obj\Debug\netstandard2.0\TRFinal_Tienda.pdb
+C:\Users\USUARIO\source\Semestre VI\TRFinal-Tienda\TRFinal-Tienda\TRFinal-Tienda\bin\Debug\netstandard2.0\TRFinal_Tienda.deps.json
+C:\Users\USUARIO\source\Semestre VI\TRFinal-Tienda\TRFinal-Tienda\TRFinal-Tienda\bin\Debug\netstandard2.0\TRFinal_Tienda.dll
+C:\Users\USUARIO\source\Semestre VI\TRFinal-Tienda\TRFinal-Tienda\TRFinal-Tienda\bin\Debug\netstandard2.0\ref\TRFinal_Tienda.dll
+C:\Users\USUARIO\source\Semestre VI\TRFinal-Tienda\TRFinal-Tienda\TRFinal-Tienda\bin\Debug\netstandard2.0\TRFinal_Tienda.pdb
+C:\Users\USUARIO\source\Semestre VI\TRFinal-Tienda\TRFinal-Tienda\TRFinal-Tienda\obj\Debug\netstandard2.0\Perfil.xaml.g.cs
+C:\Users\USUARIO\source\Semestre VI\TRFinal-Tienda\TRFinal-Tienda\TRFinal-Tienda\obj\Debug\netstandard2.0\Store.xaml.g.cs
+C:\Users\USUARIO\source\Semestre VI\TRFinal-Tienda\TRFinal-Tienda\TRFinal-Tienda\obj\Debug\netstandard2.0\XamlC.stamp
+C:\Users\USUARIO\source\Semestre VI\TRFinal-Tienda\TRFinal-Tienda\TRFinal-Tienda\obj\Debug\netstandard2.0\Welcome.xaml.g.cs
+C:\Users\USUARIO\source\Semestre VI\TRFinal-Tienda\TRFinal-Tienda\TRFinal-Tienda\obj\Debug\netstandard2.0\Biblioteca.xaml.g.cs
+C:\Users\USUARIO\source\Semestre VI\TRFinal-Tienda\TRFinal-Tienda\TRFinal-Tienda\obj\Debug\netstandard2.0\Car.xaml.g.cs
+C:\Users\USUARIO\source\Semestre VI\TRFinal-Tienda\TRFinal-Tienda\TRFinal-Tienda\obj\Debug\netstandard2.0\Search.xaml.g.cs
+C:\Users\USUARIO\source\Semestre VI\TRFinal-Tienda\TRFinal-Tienda\TRFinal-Tienda\obj\Debug\netstandard2.0\ViewGame.xaml.g.cs
+C:\Users\USUARIO\source\Semestre VI\TRFinal-Tienda\TRFinal-Tienda\TRFinal-Tienda\obj\Debug\netstandard2.0\JuegoBiblioteca.xaml.g.cs
+C:\Users\USUARIO\source\Semestre VI\TRFinal-Tienda - copia\TRFinal-Tienda\TRFinal-Tienda\bin\Debug\netstandard2.0\TRFinal_Tienda.deps.json
+C:\Users\USUARIO\source\Semestre VI\TRFinal-Tienda - copia\TRFinal-Tienda\TRFinal-Tienda\bin\Debug\netstandard2.0\TRFinal_Tienda.dll
+C:\Users\USUARIO\source\Semestre VI\TRFinal-Tienda - copia\TRFinal-Tienda\TRFinal-Tienda\bin\Debug\netstandard2.0\ref\TRFinal_Tienda.dll
+C:\Users\USUARIO\source\Semestre VI\TRFinal-Tienda - copia\TRFinal-Tienda\TRFinal-Tienda\bin\Debug\netstandard2.0\TRFinal_Tienda.pdb
+C:\Users\USUARIO\source\Semestre VI\TRFinal-Tienda - copia\TRFinal-Tienda\TRFinal-Tienda\obj\Debug\netstandard2.0\TRFinal_Tienda.csproj.AssemblyReference.cache
+C:\Users\USUARIO\source\Semestre VI\TRFinal-Tienda - copia\TRFinal-Tienda\TRFinal-Tienda\obj\Debug\netstandard2.0\TRFinal_Tienda.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\USUARIO\source\Semestre VI\TRFinal-Tienda - copia\TRFinal-Tienda\TRFinal-Tienda\obj\Debug\netstandard2.0\App.xaml.g.cs
+C:\Users\USUARIO\source\Semestre VI\TRFinal-Tienda - copia\TRFinal-Tienda\TRFinal-Tienda\obj\Debug\netstandard2.0\Biblioteca.xaml.g.cs
+C:\Users\USUARIO\source\Semestre VI\TRFinal-Tienda - copia\TRFinal-Tienda\TRFinal-Tienda\obj\Debug\netstandard2.0\Car.xaml.g.cs
+C:\Users\USUARIO\source\Semestre VI\TRFinal-Tienda - copia\TRFinal-Tienda\TRFinal-Tienda\obj\Debug\netstandard2.0\ChatBot.xaml.g.cs
+C:\Users\USUARIO\source\Semestre VI\TRFinal-Tienda - copia\TRFinal-Tienda\TRFinal-Tienda\obj\Debug\netstandard2.0\Home.xaml.g.cs
+C:\Users\USUARIO\source\Semestre VI\TRFinal-Tienda - copia\TRFinal-Tienda\TRFinal-Tienda\obj\Debug\netstandard2.0\JuegoBiblioteca.xaml.g.cs
+C:\Users\USUARIO\source\Semestre VI\TRFinal-Tienda - copia\TRFinal-Tienda\TRFinal-Tienda\obj\Debug\netstandard2.0\Login.xaml.g.cs
+C:\Users\USUARIO\source\Semestre VI\TRFinal-Tienda - copia\TRFinal-Tienda\TRFinal-Tienda\obj\Debug\netstandard2.0\MainPage.xaml.g.cs
+C:\Users\USUARIO\source\Semestre VI\TRFinal-Tienda - copia\TRFinal-Tienda\TRFinal-Tienda\obj\Debug\netstandard2.0\Perfil.xaml.g.cs
+C:\Users\USUARIO\source\Semestre VI\TRFinal-Tienda - copia\TRFinal-Tienda\TRFinal-Tienda\obj\Debug\netstandard2.0\Register.xaml.g.cs
+C:\Users\USUARIO\source\Semestre VI\TRFinal-Tienda - copia\TRFinal-Tienda\TRFinal-Tienda\obj\Debug\netstandard2.0\Search.xaml.g.cs
+C:\Users\USUARIO\source\Semestre VI\TRFinal-Tienda - copia\TRFinal-Tienda\TRFinal-Tienda\obj\Debug\netstandard2.0\Store.xaml.g.cs
+C:\Users\USUARIO\source\Semestre VI\TRFinal-Tienda - copia\TRFinal-Tienda\TRFinal-Tienda\obj\Debug\netstandard2.0\ViewGame.xaml.g.cs
+C:\Users\USUARIO\source\Semestre VI\TRFinal-Tienda - copia\TRFinal-Tienda\TRFinal-Tienda\obj\Debug\netstandard2.0\Welcome.xaml.g.cs
+C:\Users\USUARIO\source\Semestre VI\TRFinal-Tienda - copia\TRFinal-Tienda\TRFinal-Tienda\obj\Debug\netstandard2.0\TRFinal_Tienda.AssemblyInfoInputs.cache
+C:\Users\USUARIO\source\Semestre VI\TRFinal-Tienda - copia\TRFinal-Tienda\TRFinal-Tienda\obj\Debug\netstandard2.0\TRFinal_Tienda.AssemblyInfo.cs
+C:\Users\USUARIO\source\Semestre VI\TRFinal-Tienda - copia\TRFinal-Tienda\TRFinal-Tienda\obj\Debug\netstandard2.0\TRFinal_Tienda.csproj.CoreCompileInputs.cache
+C:\Users\USUARIO\source\Semestre VI\TRFinal-Tienda - copia\TRFinal-Tienda\TRFinal-Tienda\obj\Debug\netstandard2.0\XamlC.stamp
+C:\Users\USUARIO\source\Semestre VI\TRFinal-Tienda - copia\TRFinal-Tienda\TRFinal-Tienda\obj\Debug\netstandard2.0\TRFinal_Tienda.dll
+C:\Users\USUARIO\source\Semestre VI\TRFinal-Tienda - copia\TRFinal-Tienda\TRFinal-Tienda\obj\Debug\netstandard2.0\refint\TRFinal_Tienda.dll
+C:\Users\USUARIO\source\Semestre VI\TRFinal-Tienda - copia\TRFinal-Tienda\TRFinal-Tienda\obj\Debug\netstandard2.0\TRFinal_Tienda.pdb

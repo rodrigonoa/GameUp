@@ -1,0 +1,45 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="TRFinal_Tienda.Welcome"
+             BackgroundColor="#030411"
+             NavigationPage.HasNavigationBar="False">
+    <StackLayout>
+        <Grid>
+            <Grid.RowDefinitions>
+                <RowDefinition Height="300"/>
+                <RowDefinition Height="*"/>
+            </Grid.RowDefinitions>
+            <StackLayout Margin="0" HorizontalOptions="Center" Grid.Row="0" VerticalOptions="End">
+                <Frame HeightRequest="170" BackgroundColor="Transparent" Padding="0">
+                    <Image Aspect="AspectFill" Margin="0,50,0,-160" Source="consola_neon"/>
+                </Frame>
+                <Image Source="GameUp_neon" Margin="0,100"/>
+            </StackLayout>
+            <StackLayout Padding="0" HorizontalOptions="FillAndExpand" Grid.Row="1">
+                <Frame BackgroundColor="Transparent" CornerRadius="30" HeightRequest="500" HasShadow="True" Padding="0">
+                    <StackLayout VerticalOptions="Center">
+                        <BoxView HeightRequest="90"/>
+                        <StackLayout Padding="0" Margin="15,10">
+                            <Button Text="Iniciar Sesión" x:Name="btnLogin" Clicked="btnLogin_Clicked" Margin="60,0" BackgroundColor="#3BFFFF" TextColor="Black" CornerRadius="17" BorderColor="White" BorderWidth="2" FontSize="20" FontAttributes="Bold"/>
+                            <StackLayout Orientation="Horizontal" HorizontalOptions="CenterAndExpand">
+                            </StackLayout>
+                            <BoxView HeightRequest="15"/>
+                            <StackLayout Orientation="Horizontal" HorizontalOptions="Center">
+                                <Frame HeightRequest="45" WidthRequest="405"  HasShadow="False" BorderColor="Transparent" Margin="0" HorizontalOptions="Center" Padding="0" BackgroundColor="Transparent">
+                                    <Button x:Name="btnRegister" Text="Registrarme" Clicked="btnRegister_Clicked" Margin="60,0" BackgroundColor="#3BFFFF" BorderColor="#3BFFFF" BorderWidth="2" TextColor="Black" CornerRadius="17" FontSize="20" FontAttributes="Bold"/>
+                                </Frame>
+                            </StackLayout>
+                            <BoxView HeightRequest="50"/>
+                            <StackLayout Orientation="Horizontal" HorizontalOptions="Center">
+                                <Frame HeightRequest="45" WidthRequest="405"  HasShadow="False" BorderColor="Transparent" Margin="0" HorizontalOptions="Center" Padding="0" BackgroundColor="Transparent">
+                                    <Label x:Name="lblLink" Text="Continuar sin iniciar sesión" BackgroundColor="Transparent" TextColor="White" FontSize="18" FontAttributes="Bold" HorizontalTextAlignment="Center" VerticalOptions="End"/>
+                                </Frame>
+                            </StackLayout>
+                        </StackLayout>
+                    </StackLayout>
+                </Frame>
+            </StackLayout>
+        </Grid>
+    </StackLayout>
+</ContentPage>

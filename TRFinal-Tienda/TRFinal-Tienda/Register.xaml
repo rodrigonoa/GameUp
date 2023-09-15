@@ -1,0 +1,55 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="TRFinal_Tienda.Register"
+             BackgroundColor="#030411"
+             NavigationPage.HasNavigationBar="False">
+    <StackLayout>
+        <Grid>
+            <Grid.RowDefinitions>
+                <RowDefinition Height="20"/>
+                <RowDefinition Height="200"/>
+                <RowDefinition Height="*"/>
+            </Grid.RowDefinitions>
+            <StackLayout Margin="0" HorizontalOptions="Center" Grid.Row="1" VerticalOptions="Start">
+                <Frame HeightRequest="170" BackgroundColor="Transparent" Padding="0">
+                    <Image Aspect="AspectFill" Margin="0" Source="consola.png"/>
+                </Frame>
+                <Label Text="GameUp!" TextColor="White" FontSize="50" HorizontalTextAlignment="Center" FontAttributes="Bold"/>
+            </StackLayout>
+            <StackLayout Grid.Row="2">
+                <BoxView HeightRequest="80"/>
+                <StackLayout VerticalOptions="Center">
+                    <StackLayout BackgroundColor="Transparent" Margin="40,5">
+                        <Label Text="Correo electronico" TextColor="White" Margin="0,-10"/>
+                        <Entry Placeholder="example@gmail.com" x:Name="txtEmail" TextColor="White" FontAttributes="None" HorizontalOptions="FillAndExpand" Margin="0,0,20,0" PlaceholderColor="Gray"/>
+                        <BoxView WidthRequest="100" Color="White" HeightRequest="1" Margin="0,-14,25,0"/>
+                        <BoxView HeightRequest="10"/>
+                    </StackLayout>
+                    <StackLayout BackgroundColor="Transparent" Margin="40,5">
+                        <Label Text="Nombre de usuario" TextColor="White" Margin="0,-10"/>
+                        <Entry Placeholder="user01" x:Name="txtUsuario" TextColor="White" FontAttributes="None" HorizontalOptions="FillAndExpand" Margin="0,0,20,0" PlaceholderColor="Gray"/>
+                        <BoxView WidthRequest="100" Color="White" HeightRequest="1" Margin="0,-14,25,0"/>
+                        <BoxView HeightRequest="10"/>
+                    </StackLayout>
+                    <StackLayout BackgroundColor="Transparent" Margin="40,5">
+                        <Label Text="Contraseña" TextColor="White" Margin="0,-10"/>
+                        <Entry Placeholder="********" x:Name="txtContra" IsPassword="True" TextColor="White" FontAttributes="None" HorizontalOptions="FillAndExpand" Margin="0,0,20,0" PlaceholderColor="Gray"/>
+                        <BoxView WidthRequest="100" Color="White" HeightRequest="1" Margin="0,-14,25,0"/>
+                        <BoxView HeightRequest="10"/>
+                    </StackLayout>
+                    <StackLayout BackgroundColor="Transparent" Margin="40,5">
+                        <Label Text="Confirmar contraseña" TextColor="White" Margin="0,-10"/>
+                        <Entry Placeholder="********" x:Name="txtConfirContra" IsPassword="True" TextColor="White" FontAttributes="None" HorizontalOptions="FillAndExpand" Margin="0,0,20,0" PlaceholderColor="Gray"/>
+                        <BoxView WidthRequest="100" Color="White" HeightRequest="1" Margin="0,-14,25,0"/>
+                        
+                    </StackLayout>
+                    <BoxView HeightRequest="50"/>
+                    <StackLayout Padding="0" Margin="15,10">
+                        <Button Text="Enviar" x:Name="btnEnviar" Clicked="btnEnviar_Clicked" Margin="60,0" BackgroundColor="#3BFFFF" TextColor="Black" CornerRadius="17" BorderColor="White" BorderWidth="2" FontSize="20" FontAttributes="Bold"/>
+                    </StackLayout>
+                </StackLayout>
+            </StackLayout>
+        </Grid>
+    </StackLayout>
+</ContentPage>

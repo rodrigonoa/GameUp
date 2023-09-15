@@ -1,0 +1,16 @@
+C:\Users\USUARIO\source\Semestre VI\TRFinal-Tienda\TRFinal-Tienda\TRFinal-Tienda\bin\Debug\netstandard2.0\TRFinal-Tienda.deps.json
+C:\Users\USUARIO\source\Semestre VI\TRFinal-Tienda\TRFinal-Tienda\TRFinal-Tienda\bin\Debug\netstandard2.0\TRFinal-Tienda.dll
+C:\Users\USUARIO\source\Semestre VI\TRFinal-Tienda\TRFinal-Tienda\TRFinal-Tienda\bin\Debug\netstandard2.0\ref\TRFinal-Tienda.dll
+C:\Users\USUARIO\source\Semestre VI\TRFinal-Tienda\TRFinal-Tienda\TRFinal-Tienda\bin\Debug\netstandard2.0\TRFinal-Tienda.pdb
+C:\Users\USUARIO\source\Semestre VI\TRFinal-Tienda\TRFinal-Tienda\TRFinal-Tienda\obj\Debug\netstandard2.0\TRFinal-Tienda.csproj.AssemblyReference.cache
+C:\Users\USUARIO\source\Semestre VI\TRFinal-Tienda\TRFinal-Tienda\TRFinal-Tienda\obj\Debug\netstandard2.0\TRFinal-Tienda.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\USUARIO\source\Semestre VI\TRFinal-Tienda\TRFinal-Tienda\TRFinal-Tienda\obj\Debug\netstandard2.0\App.xaml.g.cs
+C:\Users\USUARIO\source\Semestre VI\TRFinal-Tienda\TRFinal-Tienda\TRFinal-Tienda\obj\Debug\netstandard2.0\MainPage.xaml.g.cs
+C:\Users\USUARIO\source\Semestre VI\TRFinal-Tienda\TRFinal-Tienda\TRFinal-Tienda\obj\Debug\netstandard2.0\TRFinal-Tienda.AssemblyInfoInputs.cache
+C:\Users\USUARIO\source\Semestre VI\TRFinal-Tienda\TRFinal-Tienda\TRFinal-Tienda\obj\Debug\netstandard2.0\TRFinal-Tienda.AssemblyInfo.cs
+C:\Users\USUARIO\source\Semestre VI\TRFinal-Tienda\TRFinal-Tienda\TRFinal-Tienda\obj\Debug\netstandard2.0\TRFinal-Tienda.csproj.CoreCompileInputs.cache
+C:\Users\USUARIO\source\Semestre VI\TRFinal-Tienda\TRFinal-Tienda\TRFinal-Tienda\obj\Debug\netstandard2.0\XamlC.stamp
+C:\Users\USUARIO\source\Semestre VI\TRFinal-Tienda\TRFinal-Tienda\TRFinal-Tienda\obj\Debug\netstandard2.0\TRFinal-Tienda.dll
+C:\Users\USUARIO\source\Semestre VI\TRFinal-Tienda\TRFinal-Tienda\TRFinal-Tienda\obj\Debug\netstandard2.0\refint\TRFinal-Tienda.dll
+C:\Users\USUARIO\source\Semestre VI\TRFinal-Tienda\TRFinal-Tienda\TRFinal-Tienda\obj\Debug\netstandard2.0\TRFinal-Tienda.pdb
+C:\Users\USUARIO\source\Semestre VI\TRFinal-Tienda\TRFinal-Tienda\TRFinal-Tienda\obj\Debug\netstandard2.0\Login.xaml.g.cs

@@ -1,0 +1,14 @@
+﻿<TabbedPage xmlns="http://xamarin.com/schemas/2014/forms"
+            xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" 
+            xmlns:local="clr-namespace:TRFinal_Tienda"
+            x:Class="TRFinal_Tienda.Home"
+            BarBackgroundColor="#00FCFC"
+            BarTextColor="Black"
+            SelectedTabColor="#FEB913"
+            UnselectedTabColor="Black"
+            NavigationPage.HasNavigationBar="False">
+    <local:Store/>
+    <local:Search/>
+    <local:Car/>
+    <local:Biblioteca/>
+</TabbedPage>

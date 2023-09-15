@@ -1,0 +1,146 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="TRFinal_Tienda.Store"
+             Title="Store"
+             IconImageSource="joystick"
+             BackgroundColor="#030411">
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="95"/>
+            <RowDefinition Height="145"/>
+            <RowDefinition Height="175"/>
+            <RowDefinition Height="240"/>
+        </Grid.RowDefinitions>
+        <StackLayout Grid.Row="0" >
+            <BoxView HeightRequest="5"/>
+            <Image Source="consola_neon" HeightRequest="65" HorizontalOptions="Start" Margin="15,0"/>
+            <Image Source="GameUp_neon" Margin="-155,-70,0,0" HeightRequest="65"/>
+            <ImageButton x:Name="imgBtnProfile" Clicked="imgBtnProfile_Clicked" Source="ProfileIcon_1" BackgroundColor="Transparent" HeightRequest="95" Margin="180,-90,-170,0"/>
+            <Label x:Name="lblPresentacion" Text="Buenas tardes" TextColor="White" Margin="65,-15,100,-60" FontSize="20" FontAttributes="Bold"/>
+        </StackLayout>
+        <Frame BackgroundColor="Transparent" Padding="8,0" Grid.Row="1">
+            <Grid>
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="40"/>
+                    <ColumnDefinition Width="*"/>
+                    <ColumnDefinition Width="40"/>
+                </Grid.ColumnDefinitions>
+                <Button x:Name="btnMenor" Grid.Column="0" BackgroundColor="Transparent" FontSize="30" FontAttributes="Bold" TextColor="White" HorizontalOptions="CenterAndExpand"/>
+                <ImageButton x:Name="imgBtnOfertas" Clicked="imgBtnOfertas_Clicked" Source="BannerOffers" Grid.Column="1" BackgroundColor="Transparent"/>
+                <Button x:Name="btnMayor" Grid.Column="2" BackgroundColor="Transparent" FontSize="30" FontAttributes="Bold" TextColor="White" HorizontalOptions="CenterAndExpand"/>
+            </Grid>
+        </Frame>
+        <Image x:Name="fondoPerfil" Source="ButtonChatBot" Margin="0,20,-150,-80" BackgroundColor="Transparent" IsVisible="false"/>
+        <Button x:Name="btnCerrarSesion" Clicked="btnCerrarSesion_Clicked" Margin="190,100,35,-50" BackgroundColor="Transparent" IsVisible="false"/>
+        <Button x:Name="btnChatBot" Clicked="btnChatBot_Clicked"  Margin="190,50,35,0" BackgroundColor="Transparent" IsVisible="false"/>
+        <StackLayout Grid.Row="2">
+            <Label Text="Categorias" TextColor="White" FontSize="20" FontAttributes="Bold" Margin="40,0,40,0"/>
+            <Grid>
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="35"/>
+                    <ColumnDefinition Width="1.25*"/>
+                    <ColumnDefinition Width="0"/>
+                    <ColumnDefinition Width="1.25*"/>
+                    <ColumnDefinition Width="0"/>
+                    <ColumnDefinition Width="1.25*"/>
+                    <ColumnDefinition Width="35"/>
+                </Grid.ColumnDefinitions>
+                <StackLayout BackgroundColor="Transparent" Grid.Column="1" HeightRequest="110">
+                    <Frame CornerRadius="20" BackgroundColor="#FE9083" HeightRequest="70">
+                        <ImageButton x:Name="btnMochila" Clicked="btnMochila_Clicked" Source="mochila" BackgroundColor="Transparent"/>
+                    </Frame>
+                    <Label Text="Aventura" VerticalOptions="End" TextColor="Black" BackgroundColor="Transparent" Margin="16,-35" FontAttributes="Bold" HorizontalTextAlignment="Center" FontSize="17"/>
+                </StackLayout>
+                <StackLayout BackgroundColor="Transparent" Grid.Column="3" HeightRequest="90">
+                    <Frame CornerRadius="20" BackgroundColor="#AA59FF" HeightRequest="70">
+                        <ImageButton x:Name="btnCarrera" Clicked="btnCarrera_Clicked" Source="carreras" BackgroundColor="Transparent"/>
+                    </Frame>
+                    <Label Text="Carrera" VerticalOptions="End" TextColor="Black" BackgroundColor="Transparent" Margin="16,-35" FontAttributes="Bold" HorizontalTextAlignment="Center" FontSize="17"/>
+                </StackLayout>
+                <StackLayout BackgroundColor="Transparent" Grid.Column="5" HeightRequest="90">
+                    <Frame CornerRadius="20" BackgroundColor="#4550FF" HeightRequest="70">
+                        <ImageButton x:Name="btnArma" Clicked="btnArma_Clicked" Source="armadefrancotirador" BackgroundColor="Transparent"/>
+                    </Frame>
+                    <Label Text="Acción" VerticalOptions="End" TextColor="Black" BackgroundColor="Transparent" Margin="16,-35" FontAttributes="Bold" HorizontalTextAlignment="Center" FontSize="17"/>
+                </StackLayout>
+            </Grid>
+        </StackLayout>
+        <StackLayout Grid.Row="3">
+            <Label Text="Lo mas adquirido" TextColor="White" FontSize="20" FontAttributes="Bold" Margin="40,-30,40,5"/>
+            <Frame HeightRequest="40" BackgroundColor="#1F2329" CornerRadius="20" Margin="20,0">
+                <StackLayout HeightRequest="40" BackgroundColor="Transparent" Margin="-18,-17,-18,-17">
+                    <StackLayout.GestureRecognizers>
+                        <TapGestureRecognizer Tapped="OnGameTapped1" CommandParameter="Terraria"/>
+                    </StackLayout.GestureRecognizers>
+                    <Grid>
+                        <Grid.ColumnDefinitions>
+                            <ColumnDefinition Width="130"/>
+                            <ColumnDefinition Width="*"/>
+                            <ColumnDefinition Width="*"/>
+                        </Grid.ColumnDefinitions>
+                        <Frame CornerRadius="10" Grid.Column="0" HeightRequest="60" Margin="4,4" VerticalOptions="Center" >
+                            <Image Source="TerrarriaBanner" HeightRequest="60" Margin="-28,-35"/>
+                        </Frame>
+                        <Label Text="Terraria" TextColor="White" Grid.Column="1"  FontAttributes="Bold" FontSize="19" VerticalOptions="Center" HorizontalOptions="StartAndExpand"/>
+                        <Label Text="S/.27.95" TextColor="White" Grid.Column="2"  FontAttributes="Bold" FontSize="18" VerticalOptions="Center" HorizontalOptions="EndAndExpand" Margin="20,0"/>
+                    </Grid>
+                </StackLayout>
+            </Frame>
+            <Frame HeightRequest="40" BackgroundColor="#1F2329" CornerRadius="20" Margin="20,0">
+                <StackLayout HeightRequest="40" BackgroundColor="Transparent" Margin="-18,-17,-18,-17">
+                    <StackLayout.GestureRecognizers>
+                        <TapGestureRecognizer Tapped="OnGameTapped2" CommandParameter="GarrysMod"/>
+                    </StackLayout.GestureRecognizers>
+                    <Grid>
+                        <Grid.ColumnDefinitions>
+                            <ColumnDefinition Width="130"/>
+                            <ColumnDefinition Width="*"/>
+                            <ColumnDefinition Width="*"/>
+                        </Grid.ColumnDefinitions>
+                        <Frame CornerRadius="10" Grid.Column="0" HeightRequest="60" Margin="4,4" VerticalOptions="Center" >
+                            <Image Source="garrysModBanner" HeightRequest="60" Margin="-28,-35"/>
+                        </Frame>
+                        <Label Text="Garry´s Mod" TextColor="White" Grid.Column="1" FontAttributes="Bold" FontSize="19" HorizontalOptions="StartAndExpand"  VerticalOptions="Center"/>
+                        <Label Text="S/.27.95" TextColor="White" Grid.Column="2"  FontAttributes="Bold" FontSize="16" HorizontalOptions="EndAndExpand"  VerticalOptions="Center" Margin="20,0"/>
+                    </Grid>
+                </StackLayout>
+            </Frame>
+            <Frame HeightRequest="40" BackgroundColor="#1F2329" CornerRadius="20" Margin="20,0">
+                <StackLayout HeightRequest="40" BackgroundColor="Transparent" Margin="-18,-17,-18,-17">
+                    <StackLayout.GestureRecognizers>
+                        <TapGestureRecognizer Tapped="OnGameTapped3" CommandParameter="Left4Dead2"/>
+                    </StackLayout.GestureRecognizers>
+                    <Grid>
+                        <Grid.ColumnDefinitions>
+                            <ColumnDefinition Width="130"/>
+                            <ColumnDefinition Width="*"/>
+                            <ColumnDefinition Width="*"/>
+                            
+                        </Grid.ColumnDefinitions>
+                        <Frame CornerRadius="10" Grid.Column="0" HeightRequest="60" Margin="4,4" VerticalOptions="Center" >
+                            <Image Source="l4d2Banner" HeightRequest="60" Margin="-28,-35"/>
+                        </Frame>
+                        <Label Text="Left 4 Dead 2" TextColor="White" Grid.Column="1" FontAttributes="Bold" FontSize="19" HorizontalOptions="StartAndExpand"  VerticalOptions="Center"/>
+                        <Label Text="S/.27.95" TextColor="White" Grid.Column="2" FontAttributes="Bold" FontSize="16" HorizontalOptions="EndAndExpand"  VerticalOptions="Center" Margin="20,0"/>
+                    </Grid>
+                </StackLayout>
+            </Frame>
+            <!--<StackLayout>
+                <Image/>
+                <Label Text="Terraria" TextColor="White"/>
+                <Label Text="S/.27.95" TextColor="White"/>
+            </StackLayout>
+            <StackLayout>
+                <Image/>
+                <Label Text="Garry´s Mod" TextColor="White"/>
+                <Label Text="S/.27.95" TextColor="White"/>
+            </StackLayout>
+            <StackLayout>
+                <Image/>
+                <Label Text="Left 4 Dead 2" TextColor="White"/>
+                <Label Text="S/.27.95" TextColor="White"/>
+            </StackLayout>-->
+        </StackLayout>
+    </Grid>
+</ContentPage>

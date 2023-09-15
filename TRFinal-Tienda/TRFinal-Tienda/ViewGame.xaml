@@ -1,0 +1,58 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="TRFinal_Tienda.ViewGame"
+             BackgroundColor="#030411"
+             NavigationPage.HasNavigationBar="False">
+    <Grid RowDefinitions="100, *">
+        <Frame BackgroundColor="Transparent" Grid.Row="0">
+            <StackLayout>
+                <Image Source="consola_neon" BackgroundColor="Transparent" WidthRequest="70" HeightRequest="60"  HorizontalOptions="Start" Margin="0" Aspect="Fill"/>
+                <Image Source="GameUp_neon" HorizontalOptions="Center" WidthRequest="140" HeightRequest="75" Aspect="Fill" Margin="-150,-70,0,0"/>
+            </StackLayout>
+        </Frame >
+        <StackLayout BackgroundColor="Transparent" Margin="0,0,0,0" Padding="35,0,35,0" Grid.Row="1">
+            <Frame CornerRadius="20" BackgroundColor="#171532">
+                <Grid>
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition Width="40"/>
+                        <ColumnDefinition Width="40"/>
+                        <ColumnDefinition Width="100"/>
+                        <ColumnDefinition Width="40"/>
+                        <ColumnDefinition Width="40"/>
+                    </Grid.ColumnDefinitions>
+                    <Grid.RowDefinitions>
+                        <RowDefinition Height="40"/>
+                        <RowDefinition Height="80"/>
+                        <RowDefinition Height="30"/>
+                        <RowDefinition Height="10"/>
+                        <RowDefinition Height="50"/>
+                        <RowDefinition Height="50"/>
+                        <RowDefinition Height="30"/>
+                        <RowDefinition Height="100"/>
+                        <RowDefinition Height="80"/>
+                        <RowDefinition Height="40"/>
+                    </Grid.RowDefinitions>
+                    <Label x:Name="lblNombre" Grid.Row="4" Grid.Column="0" Grid.ColumnSpan="4" TextColor="White" FontSize="18" FontAttributes="Bold" HorizontalOptions="Start"/>
+                    <Label x:Name="lblPrecio" Grid.Row="4" Grid.Column="4" TextColor="White" Grid.ColumnSpan="4" Margin="-20,0,0,0" HorizontalOptions="Center" BackgroundColor="Transparent" FontSize="18"/>
+                    <Frame   Grid.Row="0" Grid.RowSpan="3" Grid.Column="0" Grid.ColumnSpan="6" CornerRadius="20" BackgroundColor="Transparent" Margin="-10,0,-25,0">
+                        <Image x:Name="imgImagen" HeightRequest="90" Aspect="Fill" Margin="-28,-24,-28,-26"/>
+                    </Frame>
+                    <Label Text="PLATAFORMA" Grid.Row="5" Grid.Column="0" Grid.ColumnSpan="3" TextColor="White" FontAttributes="Bold" FontSize="16"/>
+                    <Frame   Grid.Row="5" Grid.RowSpan="3" Grid.Column="3" Grid.ColumnSpan="6" CornerRadius="6" BackgroundColor="Transparent" Margin="-60,-10,70,150">
+                        <Image x:Name="imgPlataforma" HeightRequest="90" Aspect="Fill" Margin="-28,-24,-28,-26"/>
+                    </Frame>
+                    <Label Text="SOBRE EL JUEGO" Grid.Row="6" Grid.Column="0" Grid.ColumnSpan="3" TextColor="White" FontAttributes="Bold" FontSize="16"/>
+                    <Label x:Name="lblDescripcion" Grid.Row="7" Grid.RowSpan="3" Grid.Column="0" Grid.ColumnSpan="6" BackgroundColor="Transparent" TextColor="white" FontSize="14"/>
+                    <Frame Grid.Row="8" Grid.Column="0" Grid.ColumnSpan="3" Padding="0,0,0,0" Margin="0,40,50,0" CornerRadius="10">
+                        <Button Text="Agregar al carrito" x:Name="btnAgregar" Clicked="btnAgregar_Clicked" BackgroundColor="#FFF403" FontSize="11" FontAttributes="Bold" TextColor="Black" IsEnabled="true"/>
+                    </Frame>
+                    <Frame Grid.Row="8" Grid.Column="2" Grid.ColumnSpan="20" Padding="0,0,0,0" Margin="70,40,83,0" CornerRadius="10" IsVisible="false">
+                        <Button Text="Regalar" x:Name="btnRegalar" Clicked="btnRegalar_Clicked" BackgroundColor="#FFF403" FontSize="11" FontAttributes="Bold" TextColor="Black"/>
+                    </Frame>
+
+                </Grid>
+            </Frame>
+        </StackLayout>
+    </Grid>
+</ContentPage>

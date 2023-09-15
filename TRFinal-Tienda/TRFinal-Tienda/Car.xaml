@@ -1,0 +1,81 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="TRFinal_Tienda.Car"
+             Title="Carrito"
+             IconImageSource="carrito_vacio"
+             BackgroundColor="#030411">
+    <StackLayout>
+        <Grid>
+            <Grid.RowDefinitions>
+                <RowDefinition Height="65"/>
+                <RowDefinition Height="2"/>
+                <RowDefinition Height="30"/>
+                <RowDefinition Height="*"/>
+                <RowDefinition Height="20"/>
+                <RowDefinition Height="150"/>
+            </Grid.RowDefinitions>
+            <Image Source="consola_neon" HeightRequest="60" VerticalOptions="Center" HorizontalOptions="Start" Margin="20,0" Grid.Row="0"/>
+            <Image Source="GameUp_neon" Grid.Row="0" Margin="0,0,160,0"/>
+            <ImageButton Source="profileIcon_1" BackgroundColor="Transparent" Grid.Row="0" HorizontalOptions="End" Margin="0,-22,0,-22" Padding="-20,6"/>
+            <BoxView Grid.Row="1" BackgroundColor="Transparent"/>
+            <Label Text="Carrito de compras" Grid.Row="2" TextColor="White" FontSize="20" FontAttributes="Bold" Padding="40,0"/>
+            <Label Text="Lista de productos:" TextColor="White" Grid.Row="3" Padding="40,0" FontAttributes="Bold"/>
+            <StackLayout Grid.Row="3" BackgroundColor="Transparent" Padding="10,40">
+                <ListView x:Name="listaProductos" RowHeight="80">
+                    <!-- Aumenté la RowHeight para dar espacio al cuadro de datos y al espacio debajo -->
+                    <ListView.ItemTemplate>
+                        <DataTemplate>
+                            <ViewCell>
+                                <Frame Padding="5" BackgroundColor="Transparent">
+                                    <!-- Agregué un Margen al Frame para crear el espacio debajo -->
+                                    <StackLayout Orientation="Vertical" BackgroundColor="Transparent">
+                                        <Frame CornerRadius="15" HeightRequest="26" BackgroundColor="#202127">
+                                            <Grid>
+                                                <Grid.ColumnDefinitions>
+                                                    <ColumnDefinition Width="5"/>
+                                                    <ColumnDefinition Width="100"/>
+                                                    <ColumnDefinition Width="170"/>
+                                                    <ColumnDefinition Width="70"/>
+                                                    <ColumnDefinition Width="10"/>
+                                                    <ColumnDefinition Width="10"/>
+                                                </Grid.ColumnDefinitions>
+                                                <Grid.RowDefinitions>
+                                                    <RowDefinition Height="0"/>
+                                                    <RowDefinition Height="25"/>
+                                                    <RowDefinition Height="0"/>
+                                                </Grid.RowDefinitions>
+                                                <ImageButton Source="{Binding Imagen}" x:Name="imgPro" Grid.Row="0" BackgroundColor="Transparent" HeightRequest="50" Grid.RowSpan="2"  Grid.Column="1" Aspect="Fill" Margin="-17,-10,20,-5" CornerRadius="10"/>
+                                                <Label Text="{Binding Nombre}" Grid.Row="1" Grid.Column="2" HorizontalOptions="Start" HorizontalTextAlignment="Start" TextColor="White" Padding="-15,0" FontAttributes="Bold"/>
+                                                <Label Text="{Binding Precio,StringFormat='S/. {0:#,0.00}'}" Grid.Row="1" Grid.Column="3" HorizontalOptions="Start" TextColor="White" Padding="-15,0" FontAttributes="Bold"/>
+                                            </Grid>
+                                        </Frame>
+                                    </StackLayout>
+                                </Frame>
+                            </ViewCell>
+                        </DataTemplate>
+                    </ListView.ItemTemplate>
+                </ListView>
+            </StackLayout>
+            <ImageButton x:Name="btnMostrarTodo" Source="Arrow" Clicked="btnMostrarTodo_Clicked" Grid.Row="5" BackgroundColor="Transparent" VerticalOptions="Start" Margin="0,-40,0,0"/>
+            <StackLayout Grid.Row="5" BackgroundColor="Transparent" Padding="15,0">
+                <Frame BackgroundColor="#202127" CornerRadius="15" Padding="0,40">
+                    <StackLayout>
+                        <Grid>
+                            <Grid.RowDefinitions>
+                                <RowDefinition Height="0"/>
+                                <RowDefinition Height="25"/>
+                                <RowDefinition Height="12"/>
+                                <RowDefinition Height="70"/>
+                            </Grid.RowDefinitions>
+                            <Label Text="Total" Grid.Row="1" TextColor="White" FontAttributes="Bold" FontSize="20" Padding="10,0" Margin="20,-25,0,20"/>
+                            <Label Text="Los precios incluyen igv" Grid.Row="2" TextColor="White" FontAttributes="Bold" FontSize="12" Padding="10,0" Margin="20,-25,0,20"/>
+                            <Label x:Name="lblTotal" Grid.Row="1" Text="S/.00.00" TextColor="White" FontAttributes="Bold" FontSize="20" Padding="30,0" Margin="20,-10,0,10" HorizontalTextAlignment="End"/>
+                            <ImageButton x:Name="btnComprar" Clicked="btnComprar_Clicked" Grid.Row="3" Source="comprarButtonShop" BackgroundColor="Transparent" Margin="0,0,0,0" Padding="0,-80" VerticalOptions="Start"/>
+                        </Grid>
+                    </StackLayout>
+                </Frame>
+            </StackLayout>
+        </Grid>
+    </StackLayout>
+</ContentPage>
